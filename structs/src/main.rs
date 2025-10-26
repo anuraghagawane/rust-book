@@ -7,6 +7,7 @@ struct User {
 
 struct Color(i32, i32, i32);
 struct Point(i32, i32, i32);
+struct AlwaysEqual;
 
 fn main() {
     let mut user1 = build_user(String::from("anurag"), String::from("anurag"));
@@ -27,6 +28,8 @@ fn main() {
     println!("{}", black.0);
 
     let Point(x, y, z) = origin;
+    
+    let subject = AlwaysEqua;
 }
 
 fn build_user(email: String, username: String) -> User {
