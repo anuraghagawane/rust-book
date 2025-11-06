@@ -1,0 +1,11 @@
+[package]
+name = "morecargo_ah"
+version = "0.1.0"
+edition = "2024"
+description = "Test package"
+license = "MIT"
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1
